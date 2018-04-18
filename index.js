@@ -10,7 +10,8 @@ function increaseRankBy(n) {
   var lysts = document.querySelectorAll('.ranked-list');
   for (var lyst in lysts) {
     for (var li in lyst) {
-      li.innerHTML = parseInt(li.innerHTML) + n;
+      console.log(li);
+      //li.innerHTML = parseInt(li.innerHTML) + n;
     }
   }
 }
