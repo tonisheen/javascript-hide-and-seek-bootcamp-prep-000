@@ -20,7 +20,9 @@ function deepestChild() {
   let current = grand-node, next = 1;
   
   while (next) {
-    next = current.querySelector(':first-child');
-    current = next.shift()
+    next = current.querySelector('*');
+    current = next.querySelector('*');
   }
+  
+  return current;
 }
