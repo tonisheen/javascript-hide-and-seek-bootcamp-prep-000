@@ -14,7 +14,7 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  let grand_node = document.querySelector('div#grand-node');
+  let grand_node = ;
   let current = grand_node, next = 1;
   
   while (next) {
