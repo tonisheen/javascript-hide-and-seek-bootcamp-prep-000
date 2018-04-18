@@ -19,7 +19,7 @@ function deepestChild() {
   
   while (next) {
     next = current.querySelector('*');
-    current = next.querySelector('*');
+    current = next;
   }
   
   return current;
